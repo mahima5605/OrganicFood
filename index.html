@@ -413,10 +413,12 @@
         <form class="col-lg-7" onsubmit="event.preventDefault()">
           <div class="row">
             <div class="col-lg-6 mb-3">
-              <input type="text" class="form-control bg-light" placeholder="First Name" required>
+              <input type="text" class="form-control bg-light" placeholder="First Name" pattern="[A-Za-z]+"
+title="Only letters allowed" required>
             </div>
             <div class="col-lg-6">
-              <input type="text" class="form-control bg-light" placeholder="Last Name" required>
+              <input type="text" class="form-control bg-light" placeholder="Last Name" pattern="[A-Za-z]+"
+title="Only letters allowed" required>
             </div>
           </div>
           <div class="row py-3">
