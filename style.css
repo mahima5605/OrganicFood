@@ -16,9 +16,6 @@
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 15px rgba(0,0,0,0.1);
 }
-section{
-    scroll-margin-top: 60px;
-}
 .nav-link{
     margin-right: 10px;
     margin-left: 10px;
@@ -155,4 +152,7 @@ h1{
 #topBtn:hover{
     background: rgb(212,26,57);
     transform: translateY(-5px);
+}
+hr{
+    border-bottom:1px solid rgb(211, 199, 199);
 }
