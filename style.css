@@ -84,6 +84,7 @@ h1{
 .apple{
     background: url(./img/f7.jpeg)no-repeat;
     background-size: cover;
+    background-position:right center;
     height: 80vh;
     width: 100%;
 }
