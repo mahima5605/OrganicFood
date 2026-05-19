@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family:'lobster',cursive;
+}
+.navbar-brand:hover{
+    text-shadow: 2px 2px 5px gray;
+}
+.navbar{
+    background-color: rgba(255,248,240,0.95) !important;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+section{
+    scroll-margin-top: 60px;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height:40px;
+    width:180px;
+    border-radius:60px;
+    outline:none;
+    border: 2px solid rgb(248, 70, 99);
+    padding-left: 15px;
+    margin-right: -30px;
+    font-family: 'Rubik', sans-serif;
+}
+.btn0{
+    height: 40px;
+    width: 90px;
+    outline: none;
+    border: none;
+    background: rgb(248, 70, 99);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main{
+    background: url(./img/bgfruits.jpeg)no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn1{
+    height:45px;
+    min-width:150px;
+    padding:0 25px;
+    border:none;
+    outline:none;
+    background-color:rgb(248,70,99);
+    color:white;
+    font-weight:700;
+    border-radius:60px;
+}
+.btn1:hover{
+    background-color: rgb(212, 26, 57);
+    transition: 0.5s;
+}
+.new img {
+  width: 100px;          
+}
+h1{
+    font-weight: 700;
+}
+.apple{
+    background: url(./img/f7.jpeg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1{
+    font-family:'lobster',cursive;
+}
+.news{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news input::placeholder{
+   color: white;
+}
+.news p{
+    margin: 0;
+}
+.ic .bi{
+    font-size:2rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+.ic .bi:hover{
+    color:rgb(248,70,99);
+    transition:0.3s;
+}
+.card{
+    padding: 20px;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.2);
+}
+#topBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    background: rgb(248, 70, 99);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    z-index: 999;
+    transition: 0.3s;
+}
+#topBtn:hover{
+    background: rgb(212,26,57);
+    transform: translateY(-5px);
+}
