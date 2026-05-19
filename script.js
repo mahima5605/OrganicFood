@@ -24,10 +24,19 @@ document.getElementById("searchForm")
     };
     if(sections[value]){
         location.href=sections[value];
+        document.querySelector(".navbar-collapse")
+        .classList.remove("show");
     }
     else{
         alert("Section not found");
     }
+});
+
+document.querySelector(".contact form")
+.addEventListener("submit",function(e){
+    e.preventDefault();
+    alert("Thanks for submitting!");
+    this.reset();
 });
 
 const topBtn=document.getElementById("topBtn");
