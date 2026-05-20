@@ -592,3 +592,6 @@ hr{
         font-size:2rem;
     }
 }
+section{
+    scroll-margin-top:90px;
+}
